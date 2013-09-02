@@ -1,5 +1,4 @@
-jquery-selecting -- a jquery plugin for chained selecting, coded by CoffeeScript 
-================================================================================
+## jquery-selecting -- a jquery plugin for chained selecting, coded by CoffeeScript 
 ### Usages:
 ```JavaScrit
 $('selector').selecting({
