@@ -52,7 +52,8 @@ $.fn.extend
               i = $(@).find('option:selected').index()
               if i > 0
                 ja = if ja then ja[i] else json_array[i]
+                #log ja
 
             if ja
-              $el.next('select')
+              $el.nextAll('select').first()
                 .append ("<option value='#{opt[0][0]}'>#{opt[0][1]}</option>" for opt in ja[1..]).join('')

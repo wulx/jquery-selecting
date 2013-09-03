@@ -60,7 +60,7 @@
                 }
               });
               if (ja) {
-                return $el.next('select').append(((function() {
+                return $el.nextAll('select').first().append(((function() {
                   var _i, _len, _ref, _results;
                   _ref = ja.slice(1);
                   _results = [];
